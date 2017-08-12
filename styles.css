@@ -1,26 +1,51 @@
-
 *{
     font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
 }
 body {
    margin:0px;
 }
-nav {
-    border:solid 1px;
-    background-color:white;
-    height:70px;
-    width:100%;
-    position:fixed;
+
+a {
+    text-decoration: none;
 }
-.nav-menu {
-    list-style: none;
-    text-align: right;
-}
-li{
-    display:inline;
-}
+
 .container {
     position: relative;
     max-width: 1260px;
     margin: 0 auto;
 }
+
+/* Navigacija */
+#logo{
+    position:absolute;
+    left:0;
+    margin-left:55px;
+    font-size:18px;
+}
+
+nav {
+    background-color:white;
+    height:70px;
+    width:100%;
+    position:fixed;
+    font-weight: 600;
+    font-size:14px;
+}
+
+li{
+    display:inline;
+    margin-right:30px;
+    
+}
+.nav-menu {
+    list-style: none;
+    text-align: right;
+    line-height:42px;
+}
+.link {
+    color:grey;
+}
+.link-green{
+    color:#5fcf80;
+    }
+
